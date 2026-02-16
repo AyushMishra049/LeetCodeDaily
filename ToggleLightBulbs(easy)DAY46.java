@@ -35,22 +35,4 @@ class Solution {
         
     }
 
-    public static void main(String[] args) {
-        Solution sol = new Solution();
-        
-        // Test case 1
-        List<Integer> bulbs1 = Arrays.asList(1, 2, 2, 3, 3, 3);
-        System.out.println("Input: " + bulbs1);
-        System.out.println("Output: " + sol.toggleLightBulbs(bulbs1));
-        
-        // Test case 2
-        List<Integer> bulbs2 = Arrays.asList(1, 1, 1, 1);
-        System.out.println("\nInput: " + bulbs2);
-        System.out.println("Output: " + sol.toggleLightBulbs(bulbs2));
-        
-        // Test case 3
-        List<Integer> bulbs3 = Arrays.asList(5, 4, 3, 2, 1);
-        System.out.println("\nInput: " + bulbs3);
-        System.out.println("Output: " + sol.toggleLightBulbs(bulbs3));
-    }
 }
